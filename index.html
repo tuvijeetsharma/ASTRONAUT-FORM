@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application to your space trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="astronaut1" src="https://i1.faceprep.in/ProGrad/space-man-1.png" alt="man1">
+    <img id="astronaut2" src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="man2">
+    <form action="">
+
+        <h1>Rocket around the moon with your BFFS</h1>
+        <label class="block-display" for="country">Departure Country</label>
+        <select name="countries" id="countries">
+            <option value="india">India</option>
+            <option value="uae">UAE</option>
+            <option value="usa">USA</option>
+            <option value="germany">Germany</option>
+            <option value="sweden">Sweden</option>
+        </select>
+
+        <label class="block-display" for="travellers">No.of Space Travellers</label>
+        <input type="number" name="travellers" id="travellers">
+
+        <label class="block-display" for="email">Your email</label>
+        <input type="text" name="email" id="email" placeholder="ilovesapce@gmail.com">
+
+        <label class="block-display" for="rent">Do you wanna rent a space suit?</label>
+        <input type="radio" name="rent-button" id="yes">
+        <label class="rent" for="yes">Yes Please</label>
+        <input type="radio" name="rent-button" id="no">
+        <label class="rent" for="no">Have our own suits</label>
+
+        <input type="button" value="TAKE US TO SPACE" id="button">
+
+    </form>
+</body>
+
+</html>
